@@ -1,4 +1,4 @@
-# homework_04/storage/base_storage.py
+# homework_04/model/storage/base_storage.py
 from abc import ABC, abstractmethod
 from typing import Optional
 from media.base_media_file import BaseMediaFile

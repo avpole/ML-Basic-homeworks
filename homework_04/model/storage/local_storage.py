@@ -1,4 +1,4 @@
-# homework_04/storage/local_storage.py
+# homework_04/model/storage/local_storage.py
 from typing import Optional
 from .base_storage import BaseStorage
 from media.base_media_file import BaseMediaFile

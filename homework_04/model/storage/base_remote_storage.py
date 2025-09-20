@@ -1,4 +1,4 @@
-# homework_04/storage/base_remote_storage.py
+# homework_04/model/storage/base_remote_storage.py
 from abc import ABC, abstractmethod
 from .base_storage import BaseStorage
 

@@ -1,4 +1,4 @@
-# homework_04/storage/ftp_storage.py
+# homework_04/model/storage/ftp_storage.py
 from typing import Optional
 from .base_remote_storage import BaseRemoteStorage
 from media.base_media_file import BaseMediaFile

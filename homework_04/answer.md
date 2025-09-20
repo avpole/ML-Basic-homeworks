@@ -1,3 +1,33 @@
+# Архитектура проекта `homework_04`
+
+## Структура папок и файлов
+
+homework_04/
+│
+├─ main.py # Примеры использования всех хранилищ и файлов
+│
+├─ model/
+│ ├─ media/
+│ │ ├─ __init__.py
+│ │ ├─ audio_file.py
+│ │ ├─ base_audio_video_stream_file.py
+│ │ ├─ base_media_file.py
+│ │ ├─ file_registry.py # Фабрика create_file_from_metadata
+│ │ ├─ photo_file.py
+│ │ └─ video_file.py
+│ │
+│ └─ storage/
+│ ├─ base_remote_storage.py
+│ ├─ base_storage.py
+│ ├─ cloud_storage.py
+│ ├─ ftp_storage.py
+│ └─ local_storage.py
+
+
+> Пример использования всех типов файлов и хранилищ можно смотреть в `main.py` в корне `homework_04`.
+
+---
+
 # Добавление новых типов файлов и способов хранения
 
 Если использовать предложенную архитектуру с **фабрикой (`create_file_from_metadata`)** и разделением ответственности между хранилищами и файлами, то при добавлении новых типов файлов или способов хранения **почти ничего не нужно переписывать**.  
